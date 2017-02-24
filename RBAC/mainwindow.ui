@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_10">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_11">
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>首页</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLabel" name="welcomeLabel">
+              <property name="text">
+               <string>welcome</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="uChangeButton">
+              <property name="minimumSize">
+               <size>
+                <width>94</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>切换用户</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="clearButton">
+              <property name="minimumSize">
+               <size>
+                <width>94</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>注销用户</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="exitButton">
+              <property name="minimumSize">
+               <size>
+                <width>94</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>退出</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="label1">
+              <property name="text">
+               <string>拥有角色情况</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label2">
+              <property name="text">
+               <string>激活角色情况</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QTableView" name="tableView1"/>
+            </item>
+            <item>
+             <widget class="QTableView" name="tableView2"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QPushButton" name="activateButton">
+              <property name="text">
+               <string>激活角色</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="inactiveButton">
+              <property name="text">
+               <string>取消激活</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="sButton">
+              <property name="text">
+               <string>创建会话</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>基本设置</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="QPushButton" name="creRolButton">
+                <property name="text">
+                 <string>添加角色</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="delRolButton">
+                <property name="text">
+                 <string>删除角色</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView3"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QPushButton" name="crePowButton">
+                <property name="text">
+                 <string>添加权限</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="delPowButton">
+                <property name="text">
+                 <string>删除权限</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView4"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QPushButton" name="urButton">
+                <property name="text">
+                 <string>指派用户</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="durButton">
+                <property name="text">
+                 <string>删除指派</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView5"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QPushButton" name="rpButton">
+                <property name="text">
+                 <string>指派权限</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="drpButton">
+                <property name="text">
+                 <string>删除指派</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView6"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>角色关系</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QPushButton" name="rhButton">
+                <property name="text">
+                 <string>添加角色层次</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="drhButton">
+                <property name="text">
+                 <string>删除角色层次</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView7"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QTreeWidget" name="treeWidget">
+              <column>
+               <property name="text">
+                <string notr="true">1</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QPushButton" name="rrButton">
+                <property name="text">
+                 <string>添加互斥角色</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="drrButton">
+                <property name="text">
+                 <string>删除互斥角色</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableView" name="tableView8"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>788</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
